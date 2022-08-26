@@ -13,9 +13,22 @@ body {
     display: flex;
     justify-content:  center;
 }
+
 #grid {
     width: 600px;
     height: 650px;
     background-color: white;
     border: black solid 4px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-box {
+    flex: 1 1 auto;
+    display: flex;
+}
+.lil-box {
+    flex: 1 1 auto;
+    border: solid gray 2px;
 }
