@@ -1,0 +1,21 @@
+body {
+    background-color: #423e3ece;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    text-align: center;
+    color:rgb(223, 223, 222);
+}
+
+#grid-container {
+    display: flex;
+    justify-content:  center;
+}
+#grid {
+    width: 600px;
+    height: 650px;
+    background-color: white;
+    border: black solid 4px;
+}
