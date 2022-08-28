@@ -26,7 +26,6 @@ function gridCreator(gridSize) {
 
 }
 
-gridCreator(gridSize);
 
 function changeGridSize (gridChange) {
     clearSketch();
@@ -51,6 +50,8 @@ slider.addEventListener('input', (e) => {
     gridSize = slider.value;
     clearSketch(grid);
 })
+
+gridCreator(gridSize);
 
 
 
