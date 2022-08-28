@@ -24,11 +24,37 @@ body {
     flex-direction: column;
 }
 
+.lil-box-event {
+    background-color: black;
+}
+
 .parent-box {
     flex: 1 1 auto;
     display: flex;
 }
+
 .lil-box {
     flex: 1 1 auto;
-    border: solid gray 2px;
+    
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider-text {
+    margin-bottom: -20px;
+    color: rgb(223, 223, 222);
+}
+#grid-size-choice {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#clear-button {
+    width: 300px;
+    height: 40px;
 }
